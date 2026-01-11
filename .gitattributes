@@ -1,0 +1,6 @@
+# Auto-generated TypeScript declaration files - use LF and don't convert
+src/types/*.d.ts text eol=lf
+
+# Default behavior for all files
+* text=auto
+

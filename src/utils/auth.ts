@@ -19,4 +19,8 @@ function clearToken() {
   token.value = null
 }
 
-export { isLogin, getToken, setToken, clearToken }
+function getAccessToken() {
+  return token.value
+}
+
+export { isLogin, getToken, setToken, clearToken, getAccessToken }

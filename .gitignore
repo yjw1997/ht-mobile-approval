@@ -24,3 +24,5 @@ stats.html
 # Misc
 .DS_Store
 .history
+src/types/*.d.ts
+src/types/auto-imports.d.ts

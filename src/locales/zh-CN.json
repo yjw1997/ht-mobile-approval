@@ -17,6 +17,7 @@
     "Register": "🧑‍💻 注册",
     "ForgotPassword": "❓ 忘记密码",
     "Settings": "⚙️ 设置",
+    "ContractDetail": "合同详情",
     "404": "⚠️ 404 页面",
     "Undefined": "🤷 未定义标题"
   },
@@ -129,5 +130,46 @@
     "logout": "退出登录",
     "currentVersion": "当前版本",
     "confirmTitle": "确认退出？"
+  },
+
+  "contractDetail": {
+    "applicationNo": "申请单号",
+    "copySuccess": "申请单号已复制",
+    "approvalInfo": "审批信息",
+    "relatedDocs": "关联单据",
+    "approvalProcess": "审批流程",
+    "applicant": "申请人",
+    "applicationDate": "申请日期",
+    "contractType": "合同类型",
+    "contractAmount": "合同金额",
+    "contractPeriod": "合同期限",
+    "remarks": "备注",
+    "submitted": "已提交",
+    "submittedBy": "提交人",
+    "submittedAt": "提交时间",
+    "inApproval": "审批中",
+    "approver": "审批人",
+    "approvalAt": "审批时间",
+    "pending": "待审批",
+    "pendingApprover": "待审批人"
+  },
+  "baseForm": {
+    "applicationNo": "申请单号",
+    "copySuccess": "申请单号已复制",
+    "approvalInfo": "审批信息",
+    "attachmentInfo": "附件信息",
+    "relatedDocs": "关联单据",
+    "approvalProcess": "审批流程",
+    "initiator": "发起人",
+    "documentType": "单据类型",
+    "initiationDate": "发起审批单日期时间",
+    "center": "中心",
+    "department": "部门",
+    "approvalStatus": "审批状态",
+    "download": "下载",
+    "print": "打印",
+    "preview": "预览",
+    "close": "关闭",
+    "viewDetails": "查看详情"
   }
 }

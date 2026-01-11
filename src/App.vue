@@ -54,6 +54,5 @@ const mode = computed(() => {
 .app-wrapper {
   width: 100%;
   position: relative;
-  padding: 16px;
 }
 </style>

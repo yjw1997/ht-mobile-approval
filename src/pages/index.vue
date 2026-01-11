@@ -10,6 +10,12 @@ const checked = computed({
 })
 
 const menuItems = computed(() => ([
+
+  { title: 'TC/TCT合同', route: '/apply/foreignTrade/contract/detailContractTCTCT?id=13' },
+  { title: 'VC/揽货合同', route: '/apply/foreignTrade/contract/detailContractVCFreight?id=9' },
+  { title: '收款核销审批单', route: '/apply/foreignTrade/verification/detail?id=1' },
+  { title: '付款审批单', route: '/apply/foreignTrade/paymentOrder/detail?id=1' },
+
   { title: t('navbar.Mock'), route: 'mock' },
   { title: t('navbar.Charts'), route: 'charts' },
   { title: t('navbar.UnoCSS'), route: 'unocss' },

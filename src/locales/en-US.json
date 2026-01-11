@@ -17,6 +17,7 @@
     "Register": "🧑‍💻 Register",
     "ForgotPassword": "❓ Forgot Password",
     "Settings": "⚙️ Settings",
+    "ContractDetail": "Contract Detail",
     "404": "⚠️ Page 404",
     "Undefined": "🤷 Undefined title"
   },
@@ -129,5 +130,46 @@
     "logout": "Sign Out",
     "currentVersion": "Current Version",
     "confirmTitle": "Confirm Exit?"
+  },
+
+  "contractDetail": {
+    "applicationNo": "Application No",
+    "copySuccess": "Application number copied",
+    "approvalInfo": "Approval Information",
+    "relatedDocs": "Related Documents",
+    "approvalProcess": "Approval Process",
+    "applicant": "Applicant",
+    "applicationDate": "Application Date",
+    "contractType": "Contract Type",
+    "contractAmount": "Contract Amount",
+    "contractPeriod": "Contract Period",
+    "remarks": "Remarks",
+    "submitted": "Submitted",
+    "submittedBy": "Submitted By",
+    "submittedAt": "Submitted At",
+    "inApproval": "In Approval",
+    "approver": "Approver",
+    "approvalAt": "Approval At",
+    "pending": "Pending",
+    "pendingApprover": "Pending Approver"
+  },
+  "baseForm": {
+    "applicationNo": "Approval No",
+    "copySuccess": "Approval number copied",
+    "approvalInfo": "Approval Information",
+    "attachmentInfo": "Attachment Information",
+    "relatedDocs": "Related Documents",
+    "approvalProcess": "Approval Process",
+    "initiator": "Initiator",
+    "documentType": "Document Type",
+    "initiationDate": "Initiation Date",
+    "center": "Center",
+    "department": "Department",
+    "approvalStatus": "Approval Status",
+    "download": "Download",
+    "print": "Print",
+    "preview": "Preview",
+    "close": "Close",
+    "viewDetails": "View Details"
   }
 }
