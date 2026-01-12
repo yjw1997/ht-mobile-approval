@@ -54,10 +54,10 @@ onMounted(async () => {
     const res = await getVerificationDetail(String(verificationId)) as any
     verificationData.value = res
 
-    // 从 verificationData 中获取合同信息（contractExternalList）并进行 id 去重
-    if (verificationData.value?.contractExternalList && verificationData.value.contractExternalList.length > 0) {
+    // 从 verificationData 中获取合同信息（contractExternalDTOS）并进行 id 去重
+    if (verificationData.value?.contractExternalDTOS && verificationData.value.contractExternalDTOS.length > 0) {
       const contractMap = new Map<number, ContractExternalResp>()
-      verificationData.value.contractExternalList.forEach((contract: ContractExternalResp) => {
+      verificationData.value.contractExternalDTOS.forEach((contract: ContractExternalResp) => {
         if (contract.id) {
           contractMap.set(contract.id, contract)
         }
@@ -162,7 +162,7 @@ const fields = computed(() => {
 
 // 收款金额列表
 const receiptAmountList = computed(() => {
-  return verificationData.value?.receiptOffsetDetailDTOS || []
+  return verificationData.value?.recordDetailDTOList || []
 })
 
 // 本次核销收款金额总计
@@ -301,12 +301,12 @@ const showInvalidation = computed(() => {
 
 // 财务应收明细列表
 const financialReceiptList = computed(() => {
-  return verificationData.value?.financialReceiptDetailDTOS || []
+  return verificationData.value?.offsetFeeDetailRespDTO?.financialFeeDetailList || []
 })
 
 // 业务应收明细列表
 const businessReceiptList = computed(() => {
-  return verificationData.value?.businessReceiptDetailDTOS || []
+  return verificationData.value?.offsetFeeDetailRespDTO?.businessFeeDetailList || []
 })
 
 // 基础信息 tabs 相关
